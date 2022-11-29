@@ -8,10 +8,11 @@
     <title>Pasticeria Musa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <?php include 'array.php'; ?>
 </head>
 
 <body>
-    <?php include 'array.php'; ?>
+    
     <header>
         <div class="p-5 bg-primary text-white text-center">
             <h1>BENVENUTO NELLA PASTICCERIA MUSA</h1>
@@ -63,13 +64,13 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner d-block mx-auto" style="height: 220px" >
                 <div class="carousel-item active ">
-                    <img src="images/baba.png" alt="Los Angeles" class="d-block mx-auto">
+                    <img src="images/baba.png" alt="baba" class="d-block mx-auto">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cannollo.png" alt="Chicago" class="d-block mx-auto ">
+                    <img src="images/cannollo.png" alt="cannollo" class="d-block mx-auto ">
                 </div>
-                <div class="images/carousel-item">
-                    <img src="ciambella.jpeg" alt="New York" class="d-block mx-auto">
+                <div class="carousel-item">
+                    <img src="images/ciambella.jpeg" alt="ciambella" class="d-block mx-auto">
                 </div>
             </div>
 
@@ -82,7 +83,7 @@
             </button>
         </div>
     </header>
-
+          <!-- singolo prodotto -->  
     <div class="row  row-cols-3 container-sm mx-auto row-cols-sm-4 g-4">
         <?php foreach ($Dolci as $dolce) : ?>
             <div class="col-12">
@@ -100,6 +101,7 @@
                 </div>
             </div><?php endforeach; ?>
     </div>
+    <!-- Lista -->
     <div class="container-sm">
         <h3>Lista Dolci</h3>
         <table class="table md table-sm table-primary">

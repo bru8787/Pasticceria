@@ -52,7 +52,7 @@
         ],
         [
             "DolceName" => "Ciambella",
-            "DolcePic" => 'images/images/ciambella.jpeg',
+            "DolcePic" => 'images/ciambella.jpeg',
             "DolcePrezzo" => '4€',
             "DolceTesto" => 'La ciambella è definita come un dolce di forma toroidale, questo termine designa anche le preparazione salate con la stessa forma. La ciambella può essere di diverse forme: di piccole dimensioni come i Donut o avere le dimensioni di una torta, detta Ciambellone specialmente in alcune aree dell’Italia centrale. La ciambella o il ciambellone è uno dei dolci fatti in casa più tipici della tradizione italiana, preparato con pasta lievitata e cotto in forno ed ha la classica forma rotonda con un buco al centro.',
             "DolceQty" => '40',
