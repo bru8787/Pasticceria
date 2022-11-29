@@ -63,12 +63,12 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner d-block mx-auto" style="height: 220px" >
                 <div class="carousel-item active ">
-                    <img src="baba.png" alt="Los Angeles" class="d-block mx-auto">
+                    <img src="images/baba.png" alt="Los Angeles" class="d-block mx-auto">
                 </div>
                 <div class="carousel-item">
-                    <img src="cannollo.png" alt="Chicago" class="d-block mx-auto ">
+                    <img src="images/cannollo.png" alt="Chicago" class="d-block mx-auto ">
                 </div>
-                <div class="carousel-item">
+                <div class="images/carousel-item">
                     <img src="ciambella.jpeg" alt="New York" class="d-block mx-auto">
                 </div>
             </div>
