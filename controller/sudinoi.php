@@ -1,0 +1,1 @@
+<?php require "../view/view.sudinoi.php";?>
