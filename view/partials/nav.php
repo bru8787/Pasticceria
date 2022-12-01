@@ -5,7 +5,7 @@
     <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
         <ul class="navbar-nav ">
             <li class="nav-item active">
-                <a class="nav-link" href="/controller/index.php">Home</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="/controller/dolci.php">Dolci</a>

@@ -1,3 +1,3 @@
 
-<?php require 'partials/header.php'; ?>
-<?php require '../func.php'; ?>
+<?php include 'partials/header.php'; ?>
+<?php include "func.php";?>
