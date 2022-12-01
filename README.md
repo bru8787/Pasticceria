@@ -48,3 +48,22 @@ Quindi ricapitolando
 
 Ce solo un index - ci sono dei controller e poi le view , direi che ci siamo (per adesso).
 
+
+                                LOGICA LARAVEL versione 2.0
+Adesso implementiamo la logica di Laravel cioe le route , inserendo un nuovo file route.php
+
+Non fa altro che direzionare il traffico in entrata, cioe una specie di gps interno .
+Cioè basta insererire delle condizioni di entrata se l'uttente mi chiede x /path(directory) allora indirizza la richiesta a x file.php. In questo modo non avremo più le estensioni dei file sulla barra della ricerca come sta succedendo attualmente (http://localhost/controller/index.php) ma avremo in pratica quello che vogliamo se vogliamo dirla tutta .
+possiamo dare una path a piacere a ogni pagina che ce sul sito. 
+
+Esempio la pagina "contatti" che tale si chiama anche nel file nav.php possiamo chiamarla 
+come vogliamo anche "/pino"(da non confondere con il testo che stampiamo). /pino = href="/pino".
+
+una volta scelto questo nome della path mettiamo condizione tramite la superglobale $_SERVER che in forma array ci dara l'informazione dove si trova l'utente in quel momento tramite un dato specifico nel suo output cioe ['REQUEST_URI']
+
+quindi la condizione è : se ci troviamo nella '/' =home page allora reindirizza a index.php della cartella controller.
+In questo modo nella barra della ricerca del browser ci sara scritto localhost/pino e non piu index.php
+
+
+
+
