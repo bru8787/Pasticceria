@@ -1,1 +1,1 @@
-<?php require "../view/view.index.php";?>
+<?php include "../view/view.home.php";?>

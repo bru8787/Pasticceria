@@ -5,19 +5,19 @@
     <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
         <ul class="navbar-nav ">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="/controller/index.php">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="dolci.php">Dolci</a>
+                <a class="nav-link" href="/controller/dolci.php">Dolci</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="salati.php">Salati</a>
+                <a class="nav-link" href="/controller/salati.php">Salati</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="sudinoi.php">Su di noi</a>
+                <a class="nav-link " href="/controller/sudinoi.php">Su di noi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="contatti.php">Contatti</a>
+                <a class="nav-link " href="/controller/contatti.php">Contatti</a>
             </li>
         </ul>
     </div>
