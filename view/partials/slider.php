@@ -6,11 +6,14 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
     </div>
 
     <!-- The slideshow/carousel -->
     <div class="carousel-inner d-block mx-auto" style="height: 220px">
-        <div class="carousel-item active ">
+        <div class="carousel-item active">
             <img src="/images/baba.png" alt="baba" class="d-block mx-auto">
         </div>
         <div class="carousel-item">
@@ -18,6 +21,15 @@
         </div>
         <div class="carousel-item">
             <img src="/images/ciambella.jpeg" alt="ciambella" class="d-block mx-auto">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/Foccacina.jpeg" alt="baba" class="d-block mx-auto">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/pizzetta.jpeg" alt="cannollo" class="d-block mx-auto ">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/Snack.jpeg" alt="ciambella" class="d-block mx-auto">
         </div>
     </div>
 
