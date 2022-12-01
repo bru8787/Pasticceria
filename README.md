@@ -42,8 +42,10 @@ Nota bene: non useremo ancora le route per direzionare il traffico , quella sara
 
 Quindi la logica sarà:
 
-un solo file index che per funzionare gli servera il suo controller , e lo chiamiamo sempre index.php situato dentro la cartella controller
-poi in una cartella chiamata view e per non confonderci chiuameremo i file di out put view.index.php view.xxxx.php a seconda della pagina creata
+un solo file index che per funzionare gli servirà il suo controller , e lo chiamiamo sempre index.php situato dentro la cartella controller
+poi in una cartella chiamata view e per non confonderci chiameremo i file di output view.index.php view.xxxx.php 
+oppure index.view.php a seconda della pagina creata
+
 Quindi ricapitolando 
 
 Ce solo un index - ci sono dei controller e poi le view , direi che ci siamo (per adesso).
