@@ -1,1 +1,1 @@
-<?php require "../view/view.contatti.php";?>
+<?php require "view/view.contatti.php";?>

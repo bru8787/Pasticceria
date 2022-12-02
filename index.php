@@ -1,1 +1,1 @@
-<?php require "controller/home.php";?>
+<?php require "router.php";?>

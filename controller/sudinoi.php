@@ -1,1 +1,1 @@
-<?php require "../view/view.sudinoi.php";?>
+<?php require "view/view.sudinoi.php";?>

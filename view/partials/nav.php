@@ -8,16 +8,16 @@
                 <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/controller/dolci.php">Dolci</a>
+                <a class="nav-link" href="/dolci">Dolci</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/controller/salati.php">Salati</a>
+                <a class="nav-link" href="/salati">Salati</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/controller/sudinoi.php">Su di noi</a>
+                <a class="nav-link " href="/sudinoi">Su di noi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/controller/contatti.php">Contatti</a>
+                <a class="nav-link " href="/contatti">Contatti</a>
             </li>
         </ul>
     </div>

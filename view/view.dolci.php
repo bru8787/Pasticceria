@@ -1,5 +1,5 @@
-<?php require '../view/partials/header.php'; ?>
-<?php require '../func.php'; ?>
+<?php require 'view/partials/header.php'; ?>
+<?php require 'func.php'; ?>
          <!-- singolo prodotto -->  
     <div class="row  row-cols-3 container-sm mx-auto row-cols-sm-4 g-4">
        <?php echo showDolciCards($Dolci ); ?>
