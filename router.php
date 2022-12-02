@@ -9,9 +9,9 @@ $route=[
     "/dolci"=>"controller/dolci.php",
     "/salati"=>"controller/salati.php",
 ];
-function abort($code=404){
-    http_response_code($code);
-    require "404.php";
+function abort(){
+    
+    require "view/404/404.php";
 }
 
 
