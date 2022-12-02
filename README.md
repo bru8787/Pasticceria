@@ -66,6 +66,8 @@ una volta scelto questo nome della path mettiamo condizione tramite la superglob
 quindi la condizione è : se ci troviamo nella '/' =home page allora reindirizza a index.php della cartella controller.
 In questo modo nella barra della ricerca del browser ci sara scritto localhost/pino e non piu index.php
 
+2.0.1 Aggiunto pagina 404 quando l'utente cerca una pagina che non esiste
+
 
 
 
