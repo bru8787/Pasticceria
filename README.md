@@ -59,7 +59,7 @@ Cioè basta insererire delle condizioni di entrata se l'uttente mi chiede x /pat
 possiamo dare una path a piacere a ogni pagina che ce sul sito. 
 
 Esempio la pagina "contatti" che tale si chiama anche nel file nav.php possiamo chiamarla 
-come vogliamo anche "/pino"(da non confondere con il testo che stampiamo). /pino = href="/pino".
+come vogliamo anche "/pino"(da non confondere con il testo che stampiamo). /pino = href="/contatti.php".
 
 una volta scelto questo nome della path mettiamo condizione tramite la superglobale $_SERVER che in forma array ci dara l'informazione dove si trova l'utente in quel momento tramite un dato specifico nel suo output cioe ['REQUEST_URI']
 
