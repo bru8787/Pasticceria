@@ -51,7 +51,7 @@ Quindi ricapitolando
 Ce solo un index - ci sono dei controller e poi le view , direi che ci siamo (per adesso).
 
 
-                                LOGICA LARAVEL versione 2.0
+                       LOGICA LARAVEL versione 2.0
 Adesso implementiamo la logica di Laravel cioe le route , inserendo un nuovo file route.php
 
 Non fa altro che direzionare il traffico in entrata, cioe una specie di gps interno .
